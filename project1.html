@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            xs: "400px",
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1536px",
+            // => @media (min-width: 1536px) { ... }
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="flex justify-between px-3 bg-gray-400 h-[70px] items-center">
+        <div class="font-bold text-lg"><span class="text-red-600">Restora</span> App</div>
+        <ul class="menu flex justify-end items-center gap-4 font-bold">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Cotact</li>
+        </ul>
+    </header>
+    <div class="contain flex w-[90%] md:w-[80%] mx-auto justify-between items-center flex-col md:flex-row my-[50px] gap-[50px]">
+        <div class="container_body w-[80%] md:w-[60%]">
+            <h2 class="text-3xl font-bold">Its Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptatem explicabo labore repellendus quod sit eniullam temporibus aliquid dolor amet autem blanditiis. Quaerat autem voluptatibus perferendis itaque quos nobis aspernatur, nisi ipsa. Rem, dignissimos i quasi vitae provident maxime, quia eos quam inventore earum quidem aperiam animi minima quod hic dolor nostrum minus. Vitae praesentium officiis cum, facere voluptate exercitationem amet officia earum soluta repellendus iste in molestiae ullam similique nisi omnis unde minus doloribus provident!</p>
+        </div>
+        <img src="hunger.png" alt="" class="rounded-md w-[300px] h-[300px]">
+    </div>
+    <div class="cards flex flex-wrap w-[90%] md:w-[80%] mx-auto gap-[30px] justify-center">
+        <div class="card_body p-4 w-[300px] md:w-[30%] shadow-lg">
+            <img src="burger.jpeg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Card heading</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis?</p>
+        </div>
+        <div class="card_body p-4 w-[300px] md:w-[30%] shadow-lg">
+            <img src="burger.jpeg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Card heading</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis?</p>
+        </div>
+        <div class="card_body p-4 w-[300px] md:w-[30%] shadow-lg">
+            <img src="burger.jpeg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Card heading</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis?</p>
+        </div>
+        <div class="card_body p-4 w-[300px] md:w-[30%] shadow-lg">
+            <img src="burger.jpeg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Card heading</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis?</p>
+        </div>
+        <div class="card_body p-4 w-[300px] md:w-[30%] shadow-lg">
+            <img src="burger.jpeg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Card heading</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis?</p>
+        </div>
+        <div class="card_body p-4 w-[300px] md:w-[30%] shadow-lg">
+            <img src="burger.jpeg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Card heading</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis?</p>
+        </div>
+        <div class="card_body p-4 w-[300px] md:w-[30%] shadow-lg">
+            <img src="burger.jpeg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Card heading</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis?</p>
+        </div>
+        <div class="card_body p-4 w-[300px] md:w-[30%] shadow-lg">
+            <img src="burger.jpeg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Card heading</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis?</p>
+        </div>
+        <div class="card_body p-4 w-[300px] md:w-[30%] shadow-lg">
+            <img src="burger.jpeg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Card heading</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis?</p>
+        </div>
+    </div>
+  </body>
+</html>
