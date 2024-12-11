@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            xs: "400px",
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1536px",
+            // => @media (min-width: 1536px) { ... }
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="text-red-700 sm:text-green-600">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum vero inventore optio alias reiciendis provident accusamus adipisci dolores cupiditate. Sit alias maiores quasi cumque dolore necessitatibus optio voluptate at dolor?
+    </div>
+    <div class="flex flex-col items-center xs:flex-row xs:justify-center">
+        <div class="child border border-red-700 w-[100px] h-[100px]">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+        <div class="child border border-red-700 w-[100px] h-[100px]">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+        <div class="child border border-red-700 w-[100px] h-[100px]">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+        <div class="child border border-red-700 w-[100px] h-[100px]">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+    </div>
+  </body>
+</html>

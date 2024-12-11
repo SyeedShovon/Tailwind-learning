@@ -1,0 +1,4 @@
+Check if your directory is initialized as a node project, i.e. it contains package.json file. If not then do this:
+$/> npm init -y
+Install tailwindcss as a dev dependency (optional as a dev dependency)
+$/> npm i -D tailwindcss
